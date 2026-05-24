@@ -15,7 +15,7 @@ documents = loader.load()
 print("Prompting Documents Loaded Successfully")
 
 
-# STEP 2 : Split Prompting Text
+# Split 
 splitter = RecursiveCharacterTextSplitter(
     chunk_size=200,
     chunk_overlap=20
